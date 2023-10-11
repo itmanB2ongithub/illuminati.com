@@ -1,0 +1,139 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+  
+  }
+  .header-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.632),rgba(0, 0, 0, 0.651)), url("1696963637606.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -5rem;
+  }
+  
+  nav {
+  
+    /* background-color: #252323; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 5rem;
+  }
+  .mysociety{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 10px;
+  }
+  .navbar-links :hover{
+    color: blueviolet;
+    transition: 0.3s all ease-in;
+  }
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+
+
+  .register-now{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+   
+  }
+  .buttons{
+    width: 10rem;
+    height: 2.8rem;
+    border: transparent;
+    background: #370eff;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    position: relative;
+    right: 4rem;
+    top: 8rem;
+  }
+  
+  .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: 45%;
+  }
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 6rem;
+      background: #0b0b2a;
+      width: 100%;
+      left: 0;
+     top: 5rem;
+     z-index: 1;
+    }
+    .navbar-links li {
+        margin: 20px 10px;
+    }
+    .navbar-toggle {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .bar {
+      height: 4px;
+      width: 30px;
+      background-color: #fff;
+      margin: 2px 0;
+    }
+    .welcome{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: white;
+      position: absolute;
+      top: 11rem;
+      left: 6rem;
+     
+      
+    }
+  }
+  
+
